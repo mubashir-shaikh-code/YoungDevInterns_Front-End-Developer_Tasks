@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN FORM</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Poppins">
+</head>
+<body>
+    <div class="container">
+        <div class="formbox">
+            <h1 class="head">REGISTRATION</h1>
+            <div class="line"></div>
+            <form>
+                <div class="input">
+
+                    <div class="input2 namefield">
+                        <i class="fa-solid fa-user"></i>
+                        <input type="text" placeholder="USERNAME">
+                    </div>
+
+
+                    <div class="input2">
+                        <i class="fa-solid fa-person-half-dress"></i>
+                        <select name="gender">
+                            <option value="" disabled selected>GENDER</option>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                        </select>
+                    </div>
+                    
+                    
+                    <div class="input2">
+                        <i class="fa-solid fa-at"></i>
+                        <input type="email" placeholder="EMAIL">    
+                    </div>
+
+                    <div class="input2">
+                        <i class="fa-solid fa-lock"></i>
+                        <input type="password" placeholder="PASSWORD">
+                    </div>
+                    <p class="psup">STRONG PASSWORD -> <a href=#>CLICK HERE!</a>
+                    </p>
+                    <div class="btn">
+                        <button type="button" class="reg" id="registerBtn">REGISTER</button>
+                    </div>
+                </div>
+
+                <div class="popup" id="popup">
+                    <img src="2.png">
+                    <h2>THANK YOU!</h2>
+                    <p1>USER IS REGISTERED SUCCESSFULLY</p1>
+                    <button type="okbtn">OK</button>
+                </div>
+
+                <div class="popup1" id="popup1">
+                    <img src="3.png">
+                    <h2>PLEASE INPUT ALL FIELDS!</h2>
+                    <button type="okbtn1">OK</button>
+                </div>
+
+            </form>
+        </div>
+    </div>
+    
+
+    <script src="https://kit.fontawesome.com/9eaeb0104c.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
